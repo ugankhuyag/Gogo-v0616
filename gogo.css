@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+.navigation {
+    width: 100%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navigation img {
+    width: 120px;
+    height: auto;
+}
+
+.navigation ul {
+    list-style-type: none;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    overflow: hidden;
+}
+.navigation li {
+    display: inline-block;
+}
+.navigation a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 20px;
+    display: block;
+    text-align: center;
+    width: 120px;
+    display: block;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.navigation a:hover {
+    background-color: grey;
+}
+.header {
+    display: flex;
+}
+.header-widget {
+    flex: 1;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+    min-height: 385px;
+    gap: 8px;
+    margin-top: 20px;
+}
+.grid {
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.secondrow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 385px;
+    margin-top: 5px;
+    gap: 8px;
+}
+.thirdrow {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    min-height: 385px;
+    margin-top: 5px;
+    gap: 8px;
+}
+
+.fourthrow {
+    display: grid;
+    grid-template-columns: 67% 33%;
+    min-height: 3159px;
+    margin-top: 5px;
+    gap: 8px;
+}
+.fifthrow {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    min-height: 385px;
+    margin-top: 5px;
+    gap: 8px;
+}
+.card1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: #f5f5f5;
+}
+.watchsection {
+    display: grid;
+    height: 717px;
+    background-color: #333;
+}
+.sixthrow {
+    display: grid;
+    background-color: #333;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    min-height: 385px;
+    margin-top: 5px;
+    gap: 8px;
+    
+}
+.card2 {
+    display: grid;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    padding: 100px;
+    margin: auto;
+    align-items: center;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    
+}
+
+
+
+.box {
+    background-color: #f5f5f5;
+    gap: 50px;
+    box-sizing: 2px solid black;
+    float: right;
+}
+.box1 {
+    background-color: pink;
+    gap: 50px;
+    box-sizing: 2px solid black;
+    float: left;
+}
+
+
+header nav .droplist {
+    display: grid;
+    justify-self: center;
+
+}
+header nav .widget {
+    grid-column-start: 11;
+    grid-column-end: 13;
+    justify-self: end;
+
+}
+header nav a {
+    color:#333;
+    margin-left: 10px;
+    text-decoration: none;
+}
+main {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: aquamarine;
+}
+main img {
+    grid-column: span 6;
+    width: 100%;
+    border-radius: 6px;
+}
+main .welcome {
+    grid-column: span 6;
+}
+main > h2 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 1.5em;
+    padding-top: 20px;
+}
+
+main .card {
+    grid-column: span 4;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+}
+
+.foot1 a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    display: block;
+    list-style-type: none;
+}
+.foot1 a:hover {
+    background-color: grey;
+}
+
+footer ul {
+    list-style-type: none;
+    text-align: center;
+}
+.foot1 li {
+    display: inline-block;
+}
+.foot2 a {
+    color: black;
+    text-decoration: none;
+    padding: 25px 20px;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    width: 120px;
+    display: block;
+    list-style-type: none;
+}
+.foot2 a:hover {
+    background-color: grey;
+}
+
+
+
